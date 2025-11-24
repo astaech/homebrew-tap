@@ -15,8 +15,8 @@ class Ffmpeg < Formula
 
   bottle do
     root_url "https://github.com/astaech/homebrew-tap/releases/download/ffmpeg-8.0.1"
-    sha256 arm64_tahoe:  "cc3c926e79880e356095a496f0bbc85c400722c74aa1bde0e68f56352a7192c8"
-    sha256 x86_64_linux: "38095bacc7379d568b9c3144e51680d3d5b9b96befc1861303512288216c8bbe"
+    sha256 arm64_tahoe:  "2720bf029a4d8bb05517551467d914a9fd86e29de04ec8bdec49ed6840e1256d"
+    sha256 x86_64_linux: "adf3d94dd908d08b81e50dfae1a35429ddc4bc7dffdd288bf00052d962da37c9"
   end
 
   depends_on "pkgconf" => :build
